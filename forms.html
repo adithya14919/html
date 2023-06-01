@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <link rel="stylesheet" href="forms.css">
+    </head>
+    <body>
+    <form name="reg form">
+        <fieldset>
+            <legend>REGISTRATION</legend>
+        </fieldset>
+    </form>
+     <table>
+        <tr>
+        <!--First name-->
+        <td>First name</td>
+        <td>
+            <input type="text" name="f name"
+            placeholder=" enter first name">
+        </td>
+        <td>
+            <span>(*** Enter first Name***)</span>
+        </td>
+        </tr>
+         <!--last name-->
+        <tr>
+            <td>last name</td>
+           <td>
+            <input type="text" name="1 name" placeholder=" enter last name">
+           </td>
+           <td>
+            <span> (*** enter valid last name ***)</span>
+           </td>
+        </tr>
+        <!--password-->
+        <tr>
+            <td>password</td>
+        <td>
+            <input type="enter password" name="upwd" placeholder="enter password">
+            </td>
+            <td> <span>(*** enter valid password ***)</span>
+            </td>
+          </tr>
+          <!--confirm password-->
+        <tr>
+            <td>conf password</td>
+        <td>
+            <input type=" password" name="upwd" placeholder="repeat above password">
+            </td>
+            <td> <span>(*** password should match ***)</span>
+            </td>
+          </tr>
+          <!--Email-->
+        <tr>
+            <td>Email</td>
+        <td>
+            <input type="Email " name="usermail" placeholder="enter Email">
+            </td>
+            <td> <span>(*** enter valid email ***)</span>
+            </td>
+          </tr>
+          <!--age-->
+        <tr>
+            <td>enter age</td>
+        <td>
+            <input type="number" name="uage" placeholder="enter age">
+            </td>
+            <td> <span>(*** enter valid age ***)</span>
+            </td>
+          </tr>
+          <!--gender-->
+        <tr>
+            <td>Gender</td>
+        <td>
+            <input type="radio" name="gender" value="male">male 
+            <input type="radio" name="gender" value="female">female          
+        </td>
+            <td> <span>(*** select gender ***)</span>
+            </td>
+          </tr>
+          <!--skill-->
+        <tr>
+            <td>skill</td>
+        <td>
+            <input type="checkbox" name="skills" value="c">c lang
+            <input type="checkbox" name="skills" value="c++">cpp  
+            </td>
+            <td> <span>(*** select skills ***)</span>
+            </td>
+          </tr>
+          <tr>
+            <td> </td>
+            <td>
+                <input type="checkbox" name="skills" value="java"> java lang
+            <input type="checkbox" name="skills" value="dot net">.net 
+            </td>
+          </tr>
+          <!--country-->
+          <tr>
+            <td>country</td>
+            <td> <select name="usercountry">
+            <option value=" ">select the country </option>
+            <option value="ind ">india </option>
+            <option value="usa">america </option>
+            <option value="pak">pakisthan </option>
+            <option value="chn ">china</option>
+            </select>
+            </td>
+            <td><span> (*** select country ***)</span>
+            </td>    
+            </tr>
+            <!--userdob-->
+            <tr>
+                <td>enter dob</td>
+                <td>
+                    <input type="date" name="--userdob--">
+                </td>
+                <td><span> (*** enter valid dob ***)</span>
+                </td>
+            </tr>
+            <!--pref time-->
+            <tr>
+                <td>pref time</td>
+                <td>
+                    <input type="time" name="ptime">
+                </td>
+                <td> <span> (*** choose valid time ***) </span>
+                </td>
+            </tr>
+            <!--fav color-->
+            <tr>
+                <td>fav color</td>
+                <td>
+                    <input type="color" name="p color">
+                </td>
+                <td> <span> (*** choose the pref color ***)</span>
+                </td>
+            </tr>
+            <!--addres-->
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea name="uaddress" col=" " rows=" "
+                    placeholder="enter address"></textarea>
+                </td>
+                <td><span> (*** enter valid address***)</span>
+                </td>
+            </tr>
+            <!--file up-->
+            <tr>
+                <td>upload resume</td>
+                <td>
+                    <input type="file" name="uresume">
+                </td>
+                <td> <span> (*** only pdf files ***)</span>
+                </td>
+            </tr>
+            <!--submit restart button-->
+            <tr>
+                <td>submit</td>
+                <td>
+                    <input type="submit" value="Register">
+                    <td> </td>
+                </td>
+                <td> <input type="reset" value="clear">
+                </td>
+            </tr>
+     </table>
+</html>
